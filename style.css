@@ -43,13 +43,18 @@ main {
 }
 
 #search-field {
-    width: 28rem;
-    height: 0.6rem;
+    width: 27rem;
+    height: 1.5rem;
     align-self: center;
     border: none;
     border-radius: 20px;
     background-color: rgb(201, 201, 201);
-    padding: 0.7em;
+    padding-left: 1em;
+}
+
+#search-field:focus {
+    outline: none;
+    border: none;    
 }
 
 .second-header {
