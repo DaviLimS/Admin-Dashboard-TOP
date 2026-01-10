@@ -37,6 +37,21 @@ main {
     grid-row: 1 / 2;
 }
 
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+#search-field {
+    width: 28rem;
+    height: 0.6rem;
+    align-self: center;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(201, 201, 201);
+    padding: 0.7em;
+}
+
 .second-header {
     display: flex;
     justify-content: space-around;
