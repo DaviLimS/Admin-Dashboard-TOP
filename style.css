@@ -63,7 +63,17 @@ main {
     outline: none;
 }
 
-.main {
+main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.your-projects {
+    grid-column: 1 / 4;
+    background-color: rgb(255, 94, 255);
+}
+
+.side-fields {
+    grid-column: 4 / 5;
+    background-color: rgb(21, 255, 0);
 }
