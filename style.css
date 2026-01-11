@@ -180,6 +180,15 @@ main {
 }
 
 .side-fields {
+    display: inline-flex;
+    flex-direction: column;
     grid-column: 4 / 5;
     background-color: rgb(21, 255, 0);
+}
+
+.other-field {
+    height: 40%;
+    border: 0.5px solid grey;
+    padding: 1rem;
+    padding-top: 2rem;
 }
