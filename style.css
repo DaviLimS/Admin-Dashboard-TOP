@@ -156,12 +156,27 @@ main {
     grid-template-columns: repeat(4, 1fr);
     grid-column: 2 / 5;
     grid-row: 3 / 12;
-    background-color: greenyellow;
 }
 
 .your-projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     grid-column: 1 / 4;
-    background-color: rgb(255, 94, 255);
+    padding: 1.5rem;
+}
+
+.your-projects-h {
+    width: 100%;
+    margin-left: 01rem;
+}
+
+.project {
+    width: 20rem;
+    height: 15rem;
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    margin-top: 1.5rem;
 }
 
 .side-fields {
