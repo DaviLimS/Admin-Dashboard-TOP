@@ -126,6 +126,15 @@ aside {
     height: 2.5rem;
     margin-right: 3%;
 }
+.sidebar {
+    display: grid;
+    height: 80vh;
+}
+
+.sidebar-img {
+    width: 1rem;
+    height: 1rem;
+}
 
 main {
     display: grid;
