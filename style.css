@@ -7,7 +7,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(11, 0.5fr);
-    width: 100vw;
+    width: auto;
     height: 100vh;
 }
 
@@ -191,4 +191,13 @@ main {
     border: 0.5px solid grey;
     padding: 1rem;
     padding-top: 2rem;
+}
+
+.announcements-field {
+    width: auto;
+    height: max-content;
+    padding: 1rem;
+    background-color: white;
+    border: 0.5px solid black;
+    margin-top: 1.6rem;
 }
