@@ -168,7 +168,8 @@ main {
 
 .your-projects-h {
     width: 100%;
-    margin-left: 01rem;
+    margin-left: 1rem;
+    margin-bottom: -1.3rem;
 }
 
 .project {
@@ -183,12 +184,15 @@ main {
     display: inline-flex;
     flex-direction: column;
     grid-column: 4 / 5;
-    background-color: rgb(21, 255, 0);
+}
+
+.side-fields-h {
+    margin-bottom: -1rem;
+    text-align: center;
 }
 
 .other-field {
     height: 40%;
-    border: 0.5px solid grey;
     padding: 1rem;
     padding-top: 2rem;
 }
@@ -197,11 +201,23 @@ main {
     width: auto;
     height: max-content;
     padding: 1rem;
-    padding-top: 28px;
     background-color: white;
     border: 0.5px solid black;
     border-radius: 15px;
     margin-top: 1.6rem;
+}
+
+.p-title {
+    text-align: center;
+}
+
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.b {
+    margin-top: 0.8rem;
 }
 
 .trend {
