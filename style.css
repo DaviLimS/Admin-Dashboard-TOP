@@ -94,6 +94,12 @@ main {
 
 }
 
+.profile-photo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 5%;
+}
+
 .controls {
     display: flex;
     justify-content: space-evenly;
