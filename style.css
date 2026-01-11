@@ -115,6 +115,7 @@ aside {
     grid-column: 1 / 1;
     grid-row: 1 / 12;
     background-color: yellow;
+    margin-top: 5%;
 }
 
 .dashboard-title {
@@ -128,12 +129,13 @@ aside {
 }
 .sidebar {
     display: grid;
-    height: 80vh;
+    height: 70vh;
+    margin-top: 10%;
 }
 
 .sidebar-img {
-    width: 1rem;
-    height: 1rem;
+    max-width: 2rem;
+    max-height: 2rem;
 }
 
 main {
