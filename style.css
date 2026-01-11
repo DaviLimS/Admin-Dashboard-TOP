@@ -114,12 +114,12 @@ header {
 aside {
     grid-column: 1 / 1;
     grid-row: 1 / 12;
-    background-color: yellow;
     margin-top: 5%;
 }
 
 .dashboard-title {
     display: flex;
+    margin-left: 1rem;
 }
 
 .dashboard-h-img {
@@ -127,15 +127,28 @@ aside {
     height: 2.5rem;
     margin-right: 3%;
 }
+
 .sidebar {
     display: grid;
     height: 70vh;
     margin-top: 10%;
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.sidebar li a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .sidebar-img {
     max-width: 2rem;
     max-height: 2rem;
+    margin-right: 0.7rem;
 }
 
 main {
