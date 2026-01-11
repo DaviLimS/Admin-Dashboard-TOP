@@ -67,8 +67,18 @@ main {
 .notifications {
     width: 1.5rem;
     height: 1.5rem;
-    margin-right: -15%;
+    margin-right: -12%;
     margin-left: 4%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-photo {
+    width: 2rem;
+    height: 2rem;
 }
 
 .second-header {
