@@ -118,6 +118,7 @@ aside {
     grid-row: 1 / 12;
     padding: 5%;
     background-color: rgb(62, 226, 255);
+    border-bottom-right-radius: 30px;
 }
 
 .dashboard-title {
