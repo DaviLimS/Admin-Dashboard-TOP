@@ -188,7 +188,7 @@ main {
 
 .side-fields-h {
     margin-bottom: -1rem;
-    text-align: center;
+    text-align: start;
 }
 
 .other-field {
@@ -208,7 +208,7 @@ main {
 }
 
 .p-title {
-    text-align: center;
+    text-align: start;
 }
 
 hr {
