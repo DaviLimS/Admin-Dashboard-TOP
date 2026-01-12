@@ -114,12 +114,12 @@ header {
 aside {
     grid-column: 1 / 1;
     grid-row: 1 / 12;
-    margin-top: 5%;
+    padding: 5%;
+    background-color: rgb(62, 226, 255);
 }
 
 .dashboard-title {
     display: flex;
-    margin-left: 1rem;
 }
 
 .dashboard-h-img {
