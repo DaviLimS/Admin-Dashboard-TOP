@@ -54,6 +54,12 @@ header {
     width: 1.5rem;
     height: 1.5rem;
     margin-left: 2.5%;
+    border: none;
+}
+
+#search-button img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .notifications {
@@ -61,6 +67,12 @@ header {
     height: 1.5rem;
     margin-right: -12%;
     margin-left: 4%;
+    border: none;
+}
+
+.notifications img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .profile {
