@@ -9,6 +9,7 @@ body {
     grid-template-rows: repeat(11, 0.5fr);
     width: auto;
     height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 header {
