@@ -242,6 +242,17 @@ hr {
     margin-bottom: 20px;
 }
 
+.paragraph {
+    font-family: "Noto Sans Runic", sans-serif;
+}
+
+.card-infos,
+.trend-info,
+.paragraph,
+p {
+    font-family: "Noto Sans Runic", "Noto Sans", sans-serif;
+}
+
 .trend-info {
     grid-column-start: 2;
     grid-column-end: 4;
