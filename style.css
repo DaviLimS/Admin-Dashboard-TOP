@@ -193,6 +193,24 @@ main {
     transform: scale(1.02);
 }
 
+.card-options {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 50%;
+    margin-top: auto;
+}
+
+.card-options a {
+    width: max-content;
+    height: max-content;
+}
+
+.card-options img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 .side-fields {
     display: inline-flex;
     flex-direction: column;
