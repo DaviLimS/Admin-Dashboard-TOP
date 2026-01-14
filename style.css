@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: rgb(29, 29, 29);
 }
 
 body {
@@ -264,16 +265,17 @@ hr {
     font-family: "Noto Sans Runic", sans-serif;
 }
 
-.card-infos,
-.trend-info,
-.paragraph,
-p {
-    font-family: "Noto Sans Runic", "Noto Sans", sans-serif;
+
+.trend-name {
+    text-decoration: none;
 }
 
 .trend-info {
     grid-column-start: 2;
     grid-column-end: 4;
+    text-decoration: none;
+    outline: none;
+    color: rgb(53, 53, 53);
 }
 
 .trend-img {
